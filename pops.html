@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doug | Home</title>
+
+    <style>
+        form{
+            width: fit-content;
+            margin:40px auto;
+            background-color:white;
+            padding: 35px;
+            border-radius: 6px;
+        }
+        body{
+            background-color: rgb(13, 7, 128);
+        }
+        input[type='email']{
+            width:300px ;
+            height: 30px;
+        }
+        input[type='password']{
+            width: 300px;
+            height: 30px;
+        }
+        button{
+            width: 100%;
+            height: 40px;
+            background-color: rgb(25, 0, 255);
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        h1{
+            color: whitesmoke;
+        }
+        h2{
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Whogohost</center></h1>
+
+    <form>
+
+        <h2>Secure Client Login</h2>
+        <label for="email" style="color: rgba(0, 0, 0,0.7);">Email Address</label><br>
+        <input type="email" name="Email" id="email" placeholder="Enter email"><br><br>
+
+        <label for="password" style="color: rgba(0, 0, 0,0.7);">Password</label><br>
+        <input type="password" name="Password" id="password" placeholder="Password"><br><br>
+
+        <input type="checkbox" name="Checkbox" id="checkbox">
+        <label for="checkbox">Remember Me</label><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

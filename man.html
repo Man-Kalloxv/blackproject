@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man | Home</title>
+    <style>
+        label{
+            font-weight: bold;
+            color: wheat;
+        }
+        form{
+            margin: 40px auto;
+            border-radius: 20px;
+            /* border: 5px solid blue; */
+            width: fit-content;
+            box-shadow: 0 0 17px gray;
+            padding: 20px;
+            background-color: rgba(165, 42, 42,0.4);}
+        button{
+            width: 100%;
+            border: none;
+            padding: 12px;
+            background-color: rgb(103, 103, 250);
+            font-weight: bold;
+            color: white;
+            border-radius: 4px;
+        }
+        button:hover{
+            color:rgb(238, 103, 250) ;
+            font-size: 25px;
+        }
+        input{
+             border-radius: 4px;}
+            
+        input[type='text']{
+            padding: 8px;
+            width: 300px;
+            border: 3px solid pink;
+            background-color: aqua;
+            font-weight: bolder;
+            color: white;
+        }
+        input[type='email']{
+            padding: 8px;
+            width: 300px;
+            border: 3px solid pink;
+            background-color: aqua;
+            font-weight: bolder;
+            color: white;
+        }
+        input[type='password']{
+            padding: 8px;
+            width: 300px;
+            border: 3px solid pink;
+            background-color: aqua;
+            font-weight: bolder;
+            color: white;
+        }
+        input[type='checkbox']{
+            accent-color: purple;
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <label for="name">Name</label><br>
+        <input type="text" name="Name" id="name"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="Email" id="email"><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="Password" id="password"><br><br>
+
+        <input type="checkbox" name="" id="">
+        <label for="">Remember me</label><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
